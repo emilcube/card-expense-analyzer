@@ -13,6 +13,6 @@ online_mode:
   raw_data_filename: 'humo_messages.csv'
 
 offline_mode:
+  # путь к файлу, полученному при экспорте чата с ботом (Telegram Desktop)
   # относительный путь от корня проекта
-  # путь экспорта чата с ботом
   messages_file_filepath: "data/result.json" # Please set this parameter for offline mode
