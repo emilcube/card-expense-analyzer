@@ -1,0 +1,18 @@
+is_online_mode_getting_tg_messages: false # Please set this parameter
+folder_data_path: 'data'
+parsed_data_filename: 'parsed_humo_messages.csv'
+
+dash_host: '0.0.0.0'
+dash_port: 8050
+dash_debug_mode: false
+
+online_mode:
+  api_id: '' # Please set this parameter for online mode, example: 99999999
+  api_hash: '' # Please set this parameter for online mode, example: 99999999999999999999999999999999
+  session_name: 'session_name'
+  raw_data_filename: 'humo_messages.csv'
+
+offline_mode:
+  # относительный путь от корня проекта
+  # путь экспорта чата с ботом
+  messages_file_filepath: "data/result.json" # Please set this parameter for offline mode

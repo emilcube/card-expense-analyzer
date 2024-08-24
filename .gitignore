@@ -1,0 +1,13 @@
+todo.txt
+session_name.session
+**/__pycache__/
+data/*
+!data/
+!data/.gitkeep
+*.json
+venv/
+*.pyc
+*.log
+*.tmp
+.git/
+
